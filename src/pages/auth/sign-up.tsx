@@ -26,7 +26,7 @@ export function SignUp() {
     formState: { isSubmitting },
   } = useForm<SignUpForm>()
 
-  function handleSignUp(data: SignUpForm) {
+  function handleSignUp() {
     try {
       toast.success('Restaurante cadastrado com sucesso!', {
         action: {
